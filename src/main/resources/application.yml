@@ -1,0 +1,16 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    #mysql
+    driverClassName: com.mysql.jdbc.Driver
+    name: mysql
+    url: jdbc:mysql://localhost:3306/manager
+    username: root
+    password: a123456
+    validationQuery: SELECT 1
+
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.github.mapper
