@@ -1,6 +1,6 @@
-package com.github.alex.repository;
+package com.github.alex.manager.repository;
 
-import com.github.alex.entity.DbTable;
+import com.github.alex.manager.entity.DbTable;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
 import org.springframework.stereotype.Repository;

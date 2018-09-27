@@ -1,4 +1,4 @@
-package com.github.alex.entity;
+package com.github.alex.manager.entity;
 
 import javax.persistence.*;
 

@@ -1,9 +1,9 @@
-package com.github.alex.service;
+package com.github.alex.manager.service;
 
-import com.github.alex.entity.DbColumn;
-import com.github.alex.entity.DbTable;
-import com.github.alex.repository.DbColumnRepository;
-import com.github.alex.repository.DbTableRepository;
+import com.github.alex.manager.entity.DbColumn;
+import com.github.alex.manager.entity.DbTable;
+import com.github.alex.manager.repository.DbColumnRepository;
+import com.github.alex.manager.repository.DbTableRepository;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Example;
@@ -12,7 +12,6 @@ import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-
 import static org.springframework.data.domain.ExampleMatcher.GenericPropertyMatchers.contains;
 
 
